@@ -302,8 +302,8 @@ angular.module('ui.scrollx', []).directive('ngScrollViewport', [
 											topVisible(item);
 											break;
 										} else {
-                                            topHeight += itemHeight;
-                                        }
+                      topHeight += itemHeight;
+                    }
 									}
 								}
 							};
